@@ -1,0 +1,103 @@
+/* ------------------------------------- */
+/* BASE STYLE */
+/* ------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Courier, monospace;
+  font-size: 20px;
+  font-weight: 300;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: #555;
+}
+
+/* ------------------------------------- */
+/* CONTENTS */
+/* ------------------------------------- */
+
+/* HEADINGS */
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 210%;
+}
+
+/* PARARAPH'S */
+
+p {
+  font-size: 60%;
+}
+
+/* DIV ELEMENTS */
+
+.container {
+  width: 55vw;
+  display: flex;
+  background-color: #fff;
+  margin: 80px auto;
+  padding: 10px;
+  /* height: 50vh; */
+}
+
+.flex_left {
+  width: 60%;
+  margin: 60px 20px;
+  padding: 0 20px;
+}
+
+.flex_right {
+  width: 350px;
+  height: 450px;
+}
+
+.value_container {
+  display: flex;
+  align-items: center;
+}
+
+/* SVG ELEMENTs */
+
+.success_icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+label {
+  font-size: 60%;
+  font-weight: 700;
+}
+
+.email_input {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  /* background-clip: padding-box; */
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.submit {
+  width: 100%;
+  height: 2.375rem;
+  margin-top: 10px;
+  padding: 0.375rem 0.75rem;
+  color: #fff;
+  background-color: #555;
+  cursor: pointer;
+  /* background-clip: padding-box; */
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
