@@ -55,12 +55,12 @@ p {
   /* height: 50vh; */
 }
 
-.grid_left {
+.grid_info {
   /* margin: 20px 10px; */
   padding: 40px;
 }
 
-.grid_right {
+.grid_svg {
   height: 450px;
 }
 
@@ -82,6 +82,10 @@ p {
 .success_icon {
   width: 20px;
   margin-right: 10px;
+}
+
+.mobile_svg {
+  display: none;
 }
 
 /* FORM ELEMENT */
@@ -128,3 +132,26 @@ label {
 
 /* MOBILE RESPONSIVE */
 
+@media (max-width: 650px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .desktop_svg {
+    display: none;
+  }
+
+  .mobile_svg {
+    display: block;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .grid_info {
+    margin: 0;
+    padding: 0;
+  }
+}
